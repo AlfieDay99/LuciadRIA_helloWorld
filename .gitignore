@@ -1,0 +1,8 @@
+# Node modules
+node_modules/
+
+# Optional npm cache directory
+.npm/
+
+# Ignore your license file
+src/luciadria_development.txt
