@@ -4,18 +4,31 @@
     <title>Hello world</title>
     <style>
       #map {
-      position: absolute;
-      top: 1px;
-      right: 1px;
-      bottom: 1px;
-      left: 1px;
-      border: 1px solid grey;
-     }
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        bottom: 1px;
+        left: 1px;
+        border: 1px solid grey;
+      }
+      
+      .attribution {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        pointer-events: none;
+        padding: 5px;
+        z-index: 5;
+      }
     </style>
   </head>
   <body>
     <h1>Hello world</h1>
-    <div id="map"/>
+    <div id="map">
+      <div class="attribution" id="osm_attribution">
+        ©<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>

@@ -12,5 +12,20 @@
     "@luciad/ria": "^2024.1.6",
     "@luciad/ria-geometry": "^2024.1.6",
     "@luciad/ria-milsym": "^2024.1.6"
-  }
+  },
+  "name": "luciadriahelloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfieDay99/LuciadRIA_helloWorld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlfieDay99/LuciadRIA_helloWorld/issues"
+  },
+  "homepage": "https://github.com/AlfieDay99/LuciadRIA_helloWorld#readme"
 }
